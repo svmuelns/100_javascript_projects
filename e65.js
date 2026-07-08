@@ -12,7 +12,7 @@ and passes the remaining smaller piece back to itself. */
 
 function factorial(n){
     // 1. The base case
-    if (n === 0 || n === 1) {
+    if (n <= 1) {
         return 1;
     }
 
